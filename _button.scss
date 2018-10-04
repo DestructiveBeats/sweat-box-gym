@@ -1,0 +1,41 @@
+.btn{ 
+&:link,
+&:visited{
+    padding: 2rem 3rem;
+    border-radius: 4rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+&:hover{
+    background-color: $color-black;
+    color:$color-primary;
+&:after{
+
+}
+
+}
+
+&:active{
+
+}
+
+    &--white{
+        background-color: $color-primary; 
+        color: $color-white;
+        
+    }
+
+    &--text{
+        font-weight: 400;
+        font-size: 1.8rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+
+    &--antimated{
+
+    }
+}
+
